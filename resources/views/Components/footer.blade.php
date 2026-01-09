@@ -2,20 +2,32 @@
     <div class="container mx-auto px-6">
         <div class="flex flex-col md:flex-row justify-between items-center">
             <!-- Logo & Copyright -->
-            <div class="mb-4 md:mb-0">
-                <div class="flex items-center space-x-3 mb-2">
-                    <div class="w-10 h-10 bg-chrome rounded-lg flex items-center justify-center metallic-shine">
-                        <span class="text-xl font-tech font-black text-white glow-blue">KP</span>
-                    </div>
-                    <div>
-                        <span class="text-white font-tech font-semibold text-lg">Kalong Pride</span>
-                        <p class="text-xs text-silver">Little Family With Big Memorys</p>
-                    </div>
-                </div>
-                <p class="text-silver text-sm mt-2">
-                    © {{ date('Y') }} Kalong Pride. All rights reserved.
-                </p>
+          <div class="mb-4 md:mb-0">
+    <!-- Logo dan Text Container -->
+    <div class="flex items-center space-x-4 mb-4">
+        <!-- Logo Container -->
+        <div class="relative">
+            <div class="w-20 h-20 flex items-center justify-center">
+                <img src="{{ asset('images/logo.png') }}" 
+                     alt="Kalong Pride Logo" 
+                     class="w-full h-full object-contain transform hover:scale-110 transition-transform duration-300">
             </div>
+        </div>
+        
+        <!-- Text Container -->
+        <div>
+            <h3 class="text-white font-bold text-xl tracking-wide">
+                <span class="text-blue-400">Kalong</span> Pride
+            </h3>
+            <p class="text-gray-400 text-sm mt-1">Little Family With Big Memorys</p>
+        </div>
+    </div>
+    
+    <!-- Copyright -->
+    <p class="text-gray-400 text-sm">
+        © {{ date('Y') }} Kalong Pride. All rights reserved.
+    </p>
+</div>
 
             <!-- Social Links -->
             <div class="flex space-x-4">

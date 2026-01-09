@@ -14,20 +14,7 @@
 @include('components.member')
 
 <!-- Section Galeri -->
-<section id="galeri" class="py-20 bg-gradient-to-b from-gray-900 to-black">
-    <div class="container mx-auto px-6">
-        <div class="text-center mb-12">
-            <h2 class="text-4xl md:text-5xl font-bold font-tech">
-                <span class="text-white">Galeri </span>
-                <span class="text-chrome glow-blue">Kenangan</span>
-            </h2>
-            <div class="mt-4 w-24 h-1 bg-gradient-to-r from-blue-500 to-blue-700 mx-auto"></div>
-        </div>
-        <p class="text-silver text-center text-lg max-w-3xl mx-auto">
-            Section ini akan menampilkan foto-foto kenangan...
-        </p>
-    </div>
-</section>
+@include('components.galeri')
 
 <!-- Section Komentar -->
 <section id="komentar" class="py-20 bg-black">

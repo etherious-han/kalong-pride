@@ -56,7 +56,7 @@
                 <!-- Description -->
                 <div class="space-y-4 text-gray-300 text-lg leading-relaxed">
                     <p>
-                        Seperti puzzle, setiap anggota adalah bagian penting yang membuat gambar kebersamaan kita sempurna. Ketika kita bersatu, bukan hanya kekuatan yang tercipta, tetapi juga kisah luar biasa yang akan kita tulis bersama.
+                        Welcome Barudawg di kalong pride. Naha di aranan KalongPride? di aranan kalong pride gara" barudak na nu sering nyaring ejeng sering maling buah pas peting jadi di ngaranan na kalong.barudak ie teh ges jadi batur ti sing awit sd sampai ayena.
                     </p>
                     <p>
                         Kerja dengan dedikasi, tumbuh bersama dalam suatu organisasi dan tercipta kekeluargaan. <span class="text-blue-400 font-semibold">Inilah cerita kami Kalong Pride.</span>

@@ -209,14 +209,14 @@
                     </div>
 
                     <!-- Member 3 -->
-                    <div class="member-card flex-none w-80 cursor-pointer" onclick="openModal('WEICO', 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=600&fit=crop', 'https://instagram.com/weico')">
+                    <div class="member-card flex-none w-80 cursor-pointer" onclick="openModal('DIKA', '{{ asset('images/members/dika.jpeg') }}', 'https://www.instagram.com/ddka.___/?utm_source=ig_web_button_share_sheet')">
                         <div class="relative h-96 rounded-2xl overflow-hidden border-2 border-blue-500/30 shadow-2xl backdrop-blur-sm bg-gradient-to-br from-blue-900/40 to-blue-800/20 hover:border-blue-500/60 transition-all">
-                            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=600&fit=crop" 
+                            <img src="{{ asset('images/members/dika.jpeg') }}" 
                                  alt="Member" 
                                  class="w-full h-full object-cover grayscale-filter">
                             <div class="absolute inset-0 gradient-overlay flex items-center justify-center">
                                 <div class="member-name text-4xl font-bold tracking-widest opacity-0 transition-opacity duration-500">
-                                    WEICO
+                                    DIKA
                                 </div>
                             </div>
                             <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2">
@@ -228,14 +228,14 @@
                     </div>
 
                     <!-- Member 4 -->
-                    <div class="member-card flex-none w-80 cursor-pointer" onclick="openModal('KEYLA', 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=600&fit=crop', 'https://instagram.com/keyla')">
+                    <div class="member-card flex-none w-80 cursor-pointer" onclick="openModal('DENIS', '{{ asset('images/members/denis.jpeg') }}', 'https://www.instagram.com/dnisan03_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==')">
                         <div class="relative h-96 rounded-2xl overflow-hidden border-2 border-blue-500/30 shadow-2xl backdrop-blur-sm bg-gradient-to-br from-blue-900/40 to-blue-800/20 hover:border-blue-500/60 transition-all">
-                            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=600&fit=crop" 
+                            <img src="{{ asset('images/members/denis.jpeg') }}"  
                                  alt="Member" 
                                  class="w-full h-full object-cover grayscale-filter">
                             <div class="absolute inset-0 gradient-overlay flex items-center justify-center">
                                 <div class="member-name text-4xl font-bold tracking-widest opacity-0 transition-opacity duration-500">
-                                    KEYLA
+                                    DENIS
                                 </div>
                             </div>
                             <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2">
@@ -247,14 +247,14 @@
                     </div>
 
                     <!-- Member 5 -->
-                    <div class="member-card flex-none w-80 cursor-pointer" onclick="openModal('DIMAS', 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=600&fit=crop', 'https://instagram.com/dimas')">
+                    <div class="member-card flex-none w-80 cursor-pointer" onclick="openModal('AGIP', '{{ asset('images/members/agip.jpeg') }}', 'https://www.instagram.com/mhmdagptrta/?utm_source=ig_web_button_share_sheets')">
                         <div class="relative h-96 rounded-2xl overflow-hidden border-2 border-blue-500/30 shadow-2xl backdrop-blur-sm bg-gradient-to-br from-blue-900/40 to-blue-800/20 hover:border-blue-500/60 transition-all">
-                            <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=600&fit=crop" 
+                            <img src="{{ asset('images/members/agip.jpeg') }}"  
                                  alt="Member" 
                                  class="w-full h-full object-cover grayscale-filter">
                             <div class="absolute inset-0 gradient-overlay flex items-center justify-center">
                                 <div class="member-name text-4xl font-bold tracking-widest opacity-0 transition-opacity duration-500">
-                                    DIMAS
+                                    AGIP
                                 </div>
                             </div>
                             <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2">
